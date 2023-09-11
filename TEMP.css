@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 15%;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005ea3;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsive CSS for smaller screens (e.g., iPhones) */
+@media screen and (max-width: 480px) {
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
